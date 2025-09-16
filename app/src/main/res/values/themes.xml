@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.BarberSetubal" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/yellow</item>
+    </style>
+
 </resources>
+
+
+
